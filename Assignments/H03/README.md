@@ -54,7 +54,7 @@ In each of the following examples, please choose the best data structure(s).
 - 10) Note that there may not be one clear answer.
 
 - 10) You have to store social network “feeds”. You do not know the size, and things may need to be dynamically added.
-  list - every new post will be added to the list
+  list - every new post will be added to the list <br />
 - 11) You need to store undo/redo operations in a word processor.<br />
   stack - a new change will be pushed onto the stack and poped off if undone
 - 12) You need to evaluate an expression (i.e., parse).<br />
