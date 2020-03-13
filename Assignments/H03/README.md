@@ -23,14 +23,14 @@
 
 - 8) For each of the following, count the number of operations where some_statement is executed based on the loops
 
-- 8A) n^2
+- 8A) n^2 - outer is n, inner is n
 ```cpp
 //A
 for (int I = 0; I < n; I++)
     for (int j = 1; j < n; j++)
         {some_statement;}
 ```
-- 8B) n^2
+- 8B) n^2 - outer is n/2, inner is n, remove 1/2 (constant)
 ```cpp
 //B
 for (int I = 0; I < n; I +=2)
@@ -38,7 +38,7 @@ for (int I = 0; I < n; I +=2)
         {some_statement;}
 ```
 
-- 8C) nlogn
+- 8C) nlogn - outer is logn, inner is n
 ```cpp
 //C
 for (int j = 1 ; j < n ; j *= 2)
@@ -54,26 +54,26 @@ In each of the following examples, please choose the best data structure(s).
 - 10) Note that there may not be one clear answer.
 
 - 10) You have to store social network “feeds”. You do not know the size, and things may need to be dynamically added.
-  list
+  list - every new post will be added to the list
 - 11) You need to store undo/redo operations in a word processor.<br />
-  stack
+  stack - a new change will be pushed onto the stack and poped off if undone
 - 12) You need to evaluate an expression (i.e., parse).<br />
-  tree
+  tree - could use a binary tree were the left childs hold the operation to be performed on sibling
 - 13) You need to store the friendship information on a social networking site. I.e., who is friends with who.<br />
-  graph
+  graph - can easily store relationships from person to person
 - 14) You need to store an image (1000 by 1000 pixels) as a bitmap.<br />
-  array
+  array - can store the information for every pixels in a 2d array
 - 15) To implement printer spooler so that jobs can be printed in the order of their arrival.<br />
-  queue
+  queue - first jobs sents will performed first (fifo)
 - 16) To implement back functionality in the internet browser.<br />
-  stack
+  stack - a new page will pushed onto the stack and pressing the back button will pop current off stack
 - 17) To store the possible moves in a chess game.<br />
-  set
+  set - can hold multiple childs that can be represented as moves
 - 18) To store a set of fixed key words which are referenced very frequently.<br />
-  graph
-- 19) To store the customer order information in a drive-in burger place. (Customers keep on coming and they have to get their correct food at the payment/food collection window.)<br />
   hash table
+- 19) To store the customer order information in a drive-in burger place. (Customers keep on coming and they have to get their correct food at the payment/food collection window.)<br />
+  - queue - first to order, first to eat
 - 20) To store the genealogy information of biological species.<br />
-  graph
+  graph - species with common info will both point to it
 - 21) To store an alphabetized list of names in order to look up quickly.<br />
   hash table
