@@ -72,7 +72,7 @@ In each of the following examples, please choose the best data structure(s).
 - 18) To store a set of fixed key words which are referenced very frequently.<br />
   hash table
 - 19) To store the customer order information in a drive-in burger place. (Customers keep on coming and they have to get their correct food at the payment/food collection window.)<br />
-  - queue - first to order, first to eat
+  queue - first to order, first to eat
 - 20) To store the genealogy information of biological species.<br />
   graph - species with common info will both point to it
 - 21) To store an alphabetized list of names in order to look up quickly.<br />
