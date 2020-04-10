@@ -12,3 +12,4 @@
 | 10-A03 | [10-RelationalOperator](https://github.com/Soto1999/3013-ALG-Soto/tree/master/Assignments/11172) | Relational Operators
 | 10-P04 | [10-Graphs](https://github.com/Soto1999/3013-ALG-Soto/tree/master/Assignments/459) | Graph Connectivity |
 | 11-P05 | [11-Map](https://github.com/Soto1999/3013-ALG-Soto/tree/master/Assignments/484) | Counting Occurances | 
+| 12-P06 | [12-Spanning Tress]()| Spanning Tree Calculation | 
