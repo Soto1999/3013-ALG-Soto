@@ -15,3 +15,4 @@
 | 12-P06 | [12-Spanning Tress](https://github.com/Soto1999/3013-ALG-Soto/tree/master/Assignments/11597)| Spanning Tree Calculation | 
 | 13-P07 | [13-Shortest Path](https://github.com/Soto1999/3013-ALG-Soto/tree/master/Assignments/1112)| Shortest Path Through Maze | 
 | 14A-P08| [14A-Ferry Loading III](https://github.com/Soto1999/3013-ALG-Soto/tree/master/Assignments/10901) | Travel Time For Cars |
+| 14B-P08| [14B-Ferry Loading II]() | Lowest Number of Trips| 
